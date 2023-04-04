@@ -65,10 +65,14 @@
     </build>
 
     <distributionManagement>
-        <repository>
-            <id>github</id>
+        <!--repository>
+            <id>github2</id>
             <name>GitHub Apache Maven Packages</name>
             <url>https://maven.pkg.github.com/ckroeger/library-example</url>
+        </repository-->
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
         </repository>
     </distributionManagement>
 
