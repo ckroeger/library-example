@@ -60,6 +60,9 @@ jobs:
       - name: Build with Maven
         run: mvn -B package --file pom.xml
 
+      - name: DEBUG USER
+        run: echo "$GITHUB_USERNAME"
+
       - name: Publish to GitHub Packages Apache Maven
         run: mvn deploy
         env:
